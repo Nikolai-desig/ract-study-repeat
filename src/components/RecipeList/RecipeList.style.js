@@ -19,6 +19,8 @@ export const BudgedSpot = styled.span`
         return 'green';
       case 'hard':
         return 'red';
+      default:
+        return 'white';
     }
   }};
   color: ${props => {
