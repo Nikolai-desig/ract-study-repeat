@@ -1,13 +1,14 @@
-import { Recipe } from "./Recipe";
+import { Recipe } from "../Recipe";
+import { List } from "./RecipeList.style";
 
 export const RecipeList = ({ items }) => {
   return (
-    <ul style={{listStyle: 'none'}}>
+    <List>
       {items.map(item => (
           <li key={item.id}>
             <Recipe item={item}/>
           </li>
       ))}
-    </ul>
+    </List>
   );
 };

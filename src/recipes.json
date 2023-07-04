@@ -1,13 +1,13 @@
 [
   {
     "id": 1,
-    "name": "salad",
+    "name": "Salad",
     "img": "https://www.foodandwine.com/thmb/aG8hqW0g_ea-SIOCx8kNioNyB-8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/omas-green-mountain-salad-XL-RECIPE0418-ac1ccca32de54cc58d422396cab2219b.jpg",
     "dificult": "easy"
 },
   {
     "id": 2,
-    "name": "meat",
+    "name": "Meat",
     "img": "https://www.foodandwine.com/thmb/ITwHi6HVG3h4WaOD0xne8F0XyDE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/fried-tandoori-chicken-XL-RECIPE0117-d92c48599fac4ab3a169916b708a0951.jpg",
     "dificult": "hard"
   }
