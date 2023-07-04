@@ -1,27 +1,27 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const List = styled.ul`
-display: flex;
-gap: 16px;
-list-style: none;
+  display: flex;
+  gap: 16px;
+  list-style: none;
 `;
 
 export const BudgedSpot = styled.span`
-padding: 4px 15px;
-border: 1px solid black;
-border-radius: 4px;
-background-color: ${props =>  {
+  padding: 4px 15px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: ${props => {
     if (!props.isActive) {
-        return 'white'
+      return 'white';
     }
     switch (props.value) {
-        case 'easy':
-            return 'green'
-        case 'hard':
-            return 'red'
+      case 'easy':
+        return 'green';
+      case 'hard':
+        return 'red';
     }
-}};
-color: ${props => {
+  }};
+  color: ${props => {
     return props.isActive ? 'white' : 'black';
-}}
-`
+  }};
+`;
