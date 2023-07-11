@@ -19,6 +19,8 @@ export const BudgedSpot = styled.span`
         return 'green';
       case 'hard':
         return 'red';
+      case 'mid':
+        return 'orange';
       default:
         return 'white';
     }

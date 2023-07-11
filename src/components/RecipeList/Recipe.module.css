@@ -1,0 +1,23 @@
+
+.card {
+    border: 1px solid black;  
+}
+.card:hover {
+    background: #ffffff;
+    box-shadow:  5px 5px 13px #6e6e6e,
+                 -5px -5px 13px #ffffff;
+}
+
+.difLvl {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.action_buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
