@@ -1,5 +1,6 @@
 import { Recipe } from './Recipe';
 import { List } from './RecipeList.style';
+import css from "./Recipe.module.css"
 
 export const RecipeList = ({ items, onDelete, onZoom }) => {
   return (
